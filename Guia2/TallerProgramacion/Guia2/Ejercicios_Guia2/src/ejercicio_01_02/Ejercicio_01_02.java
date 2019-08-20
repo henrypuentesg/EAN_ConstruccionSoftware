@@ -61,15 +61,22 @@ public class Ejercicio_01_02 {
 	
 		public void areaSombreada() {
 			
-	        System.out.println("Ingrese un radio para calcular el área entre el círculo con el radio r"
-	        +"y el cuadrado con la doble diagonal r");
+			System.out.println("Inicio, Ejercicio 2 - Area dentro de un Circulo");
+			System.out.println("");
+			
+	        System.out.println("Ingrese el radio para calcular el área entre el círculo con el radio r"
+	        +" y el cuadrado con la doble diagonal r");
 	        
 	        r = scan.nextDouble();
 	        area_cuadrado = 2 * Math.pow(r,2);
 	        area_circulo = Math.PI * Math.pow(r,2);
 	        area_sombreada = area_circulo - area_cuadrado;
 	        
-	        System.out.println("El área sombreada es "+area_sombreada);
+	        System.out.println("El área sombreada es: "+area_sombreada);
+	        
+	        System.out.println("");
+	        System.out.println("Fin, Ejercicio 2 - Area dentro de un Circulo");
+			System.out.println("");
 		}
 	    
 	}
