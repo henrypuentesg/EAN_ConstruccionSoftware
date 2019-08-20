@@ -14,9 +14,9 @@ public class Ejercicio_02_02 {
 	ArrayList<Double> vector_a = new ArrayList<Double>();
 
 	public void desvicionEstandar() {
-
-		System.out.println("Desviación Estadar");
-		System.out.println("-----------------------");
+		
+		System.out.println("Inicio, Ejercicio 2.2 - Desviación Estadar");
+		System.out.println("");
 
 		Scanner entrada = new Scanner(System.in);
 
@@ -49,6 +49,10 @@ public class Ejercicio_02_02 {
 		desviacion = Math.sqrt((o / elementos_a));
 
 		System.out.println("La desviación estandar del vector A: " + vector_a + " es: " + desviacion);
+		
+		System.out.println("");
+		System.out.println("Fin, Ejercicio 2.2 - Desviación Estadar");
+		System.out.println("");
 	}
 
 }

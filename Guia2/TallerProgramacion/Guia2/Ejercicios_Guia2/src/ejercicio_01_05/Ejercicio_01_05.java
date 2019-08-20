@@ -6,7 +6,7 @@ public class Ejercicio_01_05 {
 
 	public void menuRestaurante() {
 
-		System.out.println("Inicio, Ejercicio 4 - Impuesto Vehicular");
+		System.out.println("Inicio, Ejercicio 5 - El restaurante");
 		System.out.println("");
 
 		Scanner scan = new Scanner(System.in);
@@ -91,7 +91,7 @@ public class Ejercicio_01_05 {
 				.println("El precio de la orden, incluyendo impuestos y descuento es:\n" + precioDescuento + " pesos");
 
 		System.out.println("");
-		System.out.println("Fin, Ejercicio 4 - Impuesto Vehicular");
+		System.out.println("Fin, Ejercicio 5 - El restaurante");
 		System.out.println("");
 	}
 

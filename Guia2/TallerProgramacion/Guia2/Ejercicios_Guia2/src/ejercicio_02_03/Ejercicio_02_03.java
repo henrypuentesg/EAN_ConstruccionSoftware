@@ -14,6 +14,9 @@ public class Ejercicio_02_03 {
 	int i = 0;
 
 	public void manejoNumeros() {
+		
+		System.out.println("Inicio, Ejercicio 2.3 - Elementos No comunes");
+		System.out.println("");
 
 		System.out.println("Ingrese el primer numero entero: ");
 		Scanner scanner = new Scanner(System.in);
@@ -47,6 +50,10 @@ public class Ejercicio_02_03 {
 			numero2 = numero2 / 10;
 		}
 
+		System.out.println("");
+		System.out.println("Fin, Ejercicio 2.3 - Elementos No comunes");
+		System.out.println("");
+		
 	}
 
 	public void imprimirManejoNumeros() {

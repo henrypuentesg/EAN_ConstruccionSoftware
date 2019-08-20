@@ -12,6 +12,9 @@ public class Ejercicio_02_01 {
 
 	public void manejoNumeros() {
 
+		System.out.println("Inicio, Ejercicio 2.1 - Manejo De Numeros");
+		System.out.println("");
+		
 		Scanner scanner = new Scanner(System.in);
 		numero = scanner.nextInt();
 
@@ -81,6 +84,10 @@ public class Ejercicio_02_01 {
 		System.out.println("Numero Menor: " + numeroMenor(numeros));
 		System.out.println("Numero Menor: " + numeroMayor(numeros));
 		System.out.println("Promedio: " + promedio);
+		
+		System.out.println("");
+		System.out.println("Fin, Ejercicio 2.1 - Manejo De Numeros");
+		System.out.println("");
 
 	}
 
@@ -95,5 +102,7 @@ public class Ejercicio_02_01 {
 		return Arrays.stream(numeros).filter(i -> i > 0).max().orElse(Integer.MIN_VALUE);
 
 	}
+	
+
 
 }
