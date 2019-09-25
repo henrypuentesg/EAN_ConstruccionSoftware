@@ -16,10 +16,13 @@ public class Main {
 		
 		// Serie de Ejercicios Básicos de Programación N° 1
 
+	/*
 		// Ejercicio 1.1 Conversion Unidades
 		Ejercicio_01_01 ejercicio_01_01 = new Ejercicio_01_01();
 		ejercicio_01_01.conversorPulgadas();
 
+		
+		/*
 		// Ejercicio 1.2
 		Ejercicio_01_02 ejercicio_01_02 = new Ejercicio_01_02();
 		ejercicio_01_02.areaSombreada();
@@ -39,6 +42,7 @@ public class Main {
 		Ejercicio_01_05 ejercicio_01_05 = new Ejercicio_01_05();
 		ejercicio_01_05.menuRestaurante();
 
+
 		// Serie de Ejercicios Básicos de Programación N° 2
 		// Ejercicio 2.1
 
@@ -51,10 +55,13 @@ public class Main {
 		Ejercicio_02_02 ejercicio_02_02 = new Ejercicio_02_02();
 		ejercicio_02_02.desvicionEstandar();
 
+		*/
+		
 		// Ejercicio 2.3
 		Ejercicio_02_03 ejercicio_02_03 = new Ejercicio_02_03();
 		ejercicio_02_03.manejoNumeros();
 		ejercicio_02_03.imprimirManejoNumeros();
+		
 
 	}
 
